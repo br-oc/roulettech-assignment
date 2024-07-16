@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@oytyxee)*ytv@ad9!sn#ndbqm-%y!turf8d5eya=h^zuc=^p@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['3.128.67.27', 'localhost']
 
@@ -54,6 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
+SECURE_SSL_REDIRECT = True
 
 ROOT_URLCONF = 'roulettech.urls'
 
