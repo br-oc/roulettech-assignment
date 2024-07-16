@@ -129,7 +129,7 @@ STATIC_URL = '/static/'
 
 HOST_SCHEME                     = "http://"
 SECURE_PROXY_SSL_HEADER         = None
-SECURE_SSL_REDIRECT             = False
+SECURE_SSL_REDIRECT             = True
 SESSION_COOKIE_SECURE           = False
 CSRF_COOKIE_SECURE              = False
 SECURE_HSTS_SECONDS             = None
